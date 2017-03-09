@@ -18,6 +18,12 @@ printf("second truc:%s", bufferoverflow1);
 scanf("%s", bufferoverflow2);
 printf("3eme truc :%s", bufferoverflow2);        
 
+int compteur = 0;
+for (compteur = 0; compteur < 10; compteur++)
+{
+char i = (char)compteur;
+printf("Coucou %c \n", i);
+ }
 return 0;
 
 }
